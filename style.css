@@ -214,3 +214,9 @@ h1 { font-size: 60px; color: #00ffff; margin-bottom: 20px; letter-spacing: 2px; 
 .project-thumb-img:hover {
   transform: scale(1.05);
 }
+
+.project-img {
+  width: 300px;
+  border-radius: 12px;
+  border: 2px solid #00ffff50;
+}
