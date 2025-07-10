@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <!-- Top Right Navigation -->
   <nav class="top-nav">
     <a href="#">Home</a>
+    <a href="#career">Career Objective</a>
     <a href="#projects">Projects</a>
     <a href="#technical">Technical Know-How</a>
     <a href="#badges">Badges Of Learning</a>
@@ -17,98 +19,145 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="hero-section">
-    <div class="text-content">
-      <h1>NEHA PRASANNAN</h1>
-      <p class="about-me">
-        I am a final-year Computer Science student with an insatiable curiosity and a relentless drive to transform vision into impact. A dreamer at heart and an achiever by nature, I anchor my efforts not in the pursuit of accolades, but in the integrity of the work itself.
-      </p>
-      <a href="#contact" class="connect-btn">Let's Connect</a>
-    </div>
-    <img src="assets/profile.jpg" alt="Profile photo" class="hero-photo">
-  </div>
+<div class="hero-section">
+  <div class="text-content">
+    <h1>NEHA PRASANNAN</h1>
 
-  <!-- PROJECTS Section -->
-<section id="projects" class="content-section">
-  <h2>Projects</h2>
-  <div class="project-list">
-    <!-- Card 1: with video -->
-    <div class="project-card">
-      <div class="project-thumb">
-        <video class="project-video" controls>
-          <source src="assets/videos/courseapp.mp4" type="video/mp4">
-          Your browser doesn’t support HTML5 video.
-        </video>
-      </div>
-      <div class="project-content">
-        <h3>Course Management System</h3>
-        <p>
-          A full-stack web app built with ASP.NET MVC &amp; Entity Framework.  
-          Manage Courses and Lessons via CRUD operations, role-based access,  
-          and a responsive Razor‑view UI.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/nehaprasannan0707/CourseLessonApp2"
-             target="_blank"
-             class="project-link">
-            📁 View Code on GitHub
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 2: title / text / button only -->
-    <div class="project-card">
-      <div class="project-content">
-        <h3>Masked Counseling App</h3>
-        <p>
-          A frontend prototype for a mental‑health app offering anonymous support,  
-          built with plain HTML &amp; CSS to demonstrate design and UX ideas.
-        </p>
-        <div class="project-links">
-          <a href="masked-counseling/index.html"
-             target="_blank"
-             class="project-link">
-            🌐 View Project
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project: Ideathon Submission -->
-<div class="project-card">
-  <div class="project-content">
-    <h3>Microlearn-Personalized learning system — Ideathon GDSC</h3>
-    <p>
-     In an era where personalized and efficient learning is paramount, MicroLearn introduces a dynamic micro-learning platform powered by AI. Built with React and Node.js, MicroLearn enables users to enter any topic of interest, which the system then deconstructs into a sequence of ranked subtopics based on complexity. The platform delivers bite-sized, structured content by fetching and summarizing high-quality external resources including articles, videos, and documentation. By guiding learners step-by-step and adapting to their progress, MicroLearn transforms traditional learning into an intuitive, focused, and interactive experience tailored for rapid knowledge acquisition.
+    <p class="about-me theme-highlight">
+      I am a final year Computer Science student who believes in learning through doing and growing step by step. While I'm still evolving in clarity and direction, I am someone with intention, consistency, and a willingness to give my best.  
+      Being a dreamer at heart, I anchor my efforts not in the pursuit of accolades, but in the integrity of the work itself.
+      <br><br>
     </p>
-    <a href="assets/ideathon/hackathon.jpg" target="_blank" class="project-link">🏆 Appreciation</a>
+
+    <!-- Button placed clearly below the paragraph -->
+    <a href="#contact" class="connect-btn">Let's Connect and View Resume</a>
   </div>
- 
+
+  <img src="assets/profile.jpg" alt="Profile photo" class="hero-photo">
 </div>
 
 
-    <!-- Card 3: title / text / button only -->
-    <div class="project-card">
-      <div class="project-content">
-        <h3>AI‑Driven Player Performance Analyzer</h3>
-        <p>
-          A tool that evaluates and predicts player performance using ML models.  
-          Frontend in React, backend in Django—demo available on request.
-        </p>
-        <div class="project-links">
-          <a href="#"
-             class="project-link disabled">
-            🚧 Demo on Request
-          </a>
+  <!-- CAREER OBJECTIVE Section -->
+  <section id="career" class="content-section">
+    <h2>Career Objective</h2>
+    <p class="career-text theme-highlight">
+      To begin my professional journey with honesty, openness, and a commitment to continuous growth—acknowledging that I’m still exploring where my true alignment lies. I’m looking to be part of an amazing organization that values authenticity, creativity, and contribution, where I can grow not just professionally but also personally.  I care deeply about the work I do and aim to contribute with curiosity and purpose — even as I continue shaping the path that feels meaningful and true to me.
+    
+      <br><br>
+      I bring emotional intelligence, strong communication, adaptability, resilience, and a deep sense of responsibility alongside a collaborative, team-player mindset. I aspire to evolve into the most empowered and fulfilled version of myself—thriving with integrity, purpose, and clarity in everything I choose to build and pursue.
+    </p>
+  </section>
+
+  <!-- PROJECTS Section -->
+  <section id="projects" class="content-section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <!-- Card 2 - Dreamy To-Do App -->
+<!-- Dreamy To-Do App - Text-Only Format -->
+
+<div class="project-card">
+  <div class="project-content">
+    <h3> Dreamy To-Do App</h3>
+    <p class="theme-highlight">
+      A soft pink productivity app that transforms task management into a calming and joyful experience. 
+      The app includes editable titles for personalization, a celebration confetti animation on task completion, 
+      and rotating motivational quotes to encourage progress. Built using HTML, CSS, and JavaScript with data stored locally using LocalStorage.
+    </p>
+    <p class="theme-highlight">
+      Designed for dreamers, students, and creatives who want to track tasks in a gentle, aesthetic space — without the pressure of formal to-do apps.
+    </p>
+    <div class="project-links">
+      <a href="https://nehaprasannan0707.github.io/todo/" target="_blank" class="project-link">
+        🌐 View App
+      </a>
+    </div>
+  </div>
+</div> 
+     
+
+
+
+      <!-- Card 1 -->
+      <div class="project-card">
+        <div class="project-thumb">
+          <video class="project-video" controls>
+            <source src="assets/videos/courseapp.mp4" type="video/mp4">
+            Your browser doesn’t support HTML5 video.
+          </video>
+        </div>
+        <div class="project-content">
+          <h3>Course Management System</h3>
+          <p class="theme-highlight">
+            A full-stack web app built with ASP.NET MVC &amp; Entity Framework.  
+            Manage Courses and Lessons via CRUD operations, role-based access,  
+            and a responsive Razor‑view UI.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/nehaprasannan0707/CourseLessonApp2" target="_blank" class="project-link">
+              📁 View Code on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Masked Counseling App</h3>
+          <p class="theme-highlight">
+            Masked Counseling is a concept-driven mental wellness platform aimed at breaking the stigma around seeking help. The platform enables individuals to express themselves anonymously and receive support without fear of judgment. It is designed to encourage open emotional sharing, offer AI-driven mood insights, and potentially guide users toward healing.
+          </p>
+          <p class="theme-highlight">
+            This is a frontend-only prototype built using pure HTML &amp; CSS to present UI/UX ideas for the actual application. The current version serves as just a visual layout.
+          </p>
+          <div class="project-links">
+            <a href="https://nehaprasannan0707.github.io/MaskedCounselling/" target="_blank" class="project-link">
+              🌐 View Project
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Microlearn — Personalized Learning (GDSC Ideathon)</h3>
+          <p class="theme-highlight">
+            MicroLearn introduces a dynamic micro-learning platform powered by AI. Users can enter any topic, and the system deconstructs it into ranked subtopics. The platform fetches and summarizes high-quality content (articles, videos, docs), and delivers bite-sized lessons. Built with React and Node.js to enable guided, personalized, and interactive learning.
+          </p>
+          <a href="assets/ideathon/hackathon.jpg" target="_blank" class="project-link">🏆 Appreciation</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>AI‑Driven Player Performance Analyzer</h3>
+          <p class="theme-highlight">
+            An intelligent platform that leverages AI and machine learning to analyze and predict athletic performance based on match or training data. Designed with both players and coaches in mind, the tool evaluates key metrics like stamina, sprint speed, shooting accuracy, agility, and overall match consistency to provide actionable insights.
+
+The system utilizes computer vision and machine learning algorithms to assess video footage and player statistics. Built using a React.js frontend and a Django backend, it supports real-time data processing, model inference, and visual dashboards to highlight player progress over time.
+          </p>
+          <div class="project-links">
+            <a href="#" class="project-link disabled">🚧 Demo on Request</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- TECHNICAL Section -->
+  <section id="technical" class="content-section">
+    <h2>Technical Know-How</h2>
+    <p class="tech-line theme-highlight">
+      <span>Python</span> <span>C</span> <span>Java</span> <span>HTML</span> <span>CSS</span>
+      <span>Data Structures</span> <span>.NET</span> <span>Data Analytics (Basics)</span> 
+      <span>React (Basics)</span> <span>Github(Basics)</span><span>SQL Sever(Basics)</span><span>VS Code</span><span>Visual Studio</span>
+      
+    </p>
+  </section>
 
-  <!-- BADGES OF LEARNING Section -->
+  <!-- BADGES Section -->
   <section id="badges" class="content-section certifications-section">
     <h2>Badges Of Learning</h2>
     <ul class="certifications-list">
@@ -122,11 +171,14 @@
       <li><span>🧃</span><a href="assets/certificates/goose.pdf" class="cert-link" target="_blank">Soft Skills and Leadership by Gooseberry Media</a></li>
       <li><span>🌍</span><a href="assets/certificates/emanate digital ws.pdf" class="cert-link" target="_blank">Digital Marketing Workshop by Emanate</a></li>
       <li><span>🚀</span><a href="assets/certificates/ideathon (1).pdf" class="cert-link" target="_blank">Ideathon By GDSC</a></li>
+      <li><span>🥇</span><a href="assets/certificates/microlearn.pdf" class="cert-link" target="_blank">AI Hackathon By Udyama</a></li>
+      <li><span>🌐</span><a href="assets/certificates/summit.pdf" class="cert-link" target="_blank">Summit Of Future By Jain University</a></li>
+      <li><span>📚</span><a href="assets/certificates/multi.pdf" class="cert-link" target="_blank">Multidimensional Data Modelling By Infosys</a></li>
     
     </ul>
   </section>
 
-  <!-- CONTACT Section -->
+  <!-- CONTACT -->
   <section id="contact" class="content-section contact-section">
     <h2>Contact Me</h2>
     <p>I don’t have it all figured out but I’m showing up, learning, and saying yes to what I feel I can.</p>
@@ -134,6 +186,8 @@
       <a href="mailto:nehaprasannannov@gmail.com" class="contact-link glow">nehaprasannannov@gmail.com</a>
       <a href="https://github.com/nehaprasannan0707" target="_blank" class="contact-link glow">GitHub</a>
       <a href="https://www.linkedin.com/in/neha-prasannan-5b0520245" target="_blank" class="contact-link glow">LinkedIn</a>
+      <a href="assets/final resume.pdf" target="_blank" class="resume-btn"> Resume</a>
+
     </div>
   </section>
 
