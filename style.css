@@ -48,12 +48,22 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 56px;
   color: #00ffff;
   margin-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1.2;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+}
+
 
 .about-me {
   font-size: 1.1rem;
