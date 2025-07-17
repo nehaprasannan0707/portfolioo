@@ -170,7 +170,19 @@ The system utilizes computer vision and machine learning algorithms to assess vi
       <li><span>🤖</span><a href="assets/certificates/freston.pdf" class="cert-link" target="_blank">AI Product Development by Freston Analytics</a></li>
       <li><span>🗄️</span><a href="assets/certificates/dbms certificate.pdf" class="cert-link" target="_blank">Database and SQL by Infosys Springboard</a></li>
       <li><span>👩‍🎓</span><a href="assets/certificates/herhack.pdf" class="cert-link" target="_blank">TinkerHub - HerHack 3.O</a></li>
-      <li><span>🙌</span><a href="assets/certificates/volunteer.pdf" class="cert-link" target="_blank">Techfoss volunteering 2024</a></li>
+      
+      <li style="display: flex; align-items: center; gap: 10px;">
+  <span>🙌</span>
+  <a href="assets/certificates/volunteer.pdf" class="cert-link" target="_blank">Techfoss volunteering 2024</a>
+  <a href="assets/volunteering.png" target="_blank">
+    <button class="resume-btn">View Photo</button>
+  </a>
+</li>
+
+
+
+</li>
+
       <li><span>🧑‍💻</span><a href="assets/certificates/frappe.pdf" class="cert-link" target="_blank">Introduction to Frappe Framework</a></li>
       <li><span>⚙️</span><a href="assets/certificates/dotnet.pdf" class="cert-link" target="_blank">dotNET Web Development</a></li>
       <li><span>🧃</span><a href="assets/certificates/goose.pdf" class="cert-link" target="_blank">Soft Skills and Leadership by Gooseberry Media</a></li>
@@ -178,6 +190,7 @@ The system utilizes computer vision and machine learning algorithms to assess vi
       <li><span>🚀</span><a href="assets/certificates/ideathon (1).pdf" class="cert-link" target="_blank">Ideathon By GDSC</a></li>
       <li><span>🥇</span><a href="assets/certificates/microlearn.pdf" class="cert-link" target="_blank">AI Hackathon By Udyama</a></li>
       <li><span>🌐</span><a href="assets/certificates/summit.pdf" class="cert-link" target="_blank">Summit Of Future By Jain University</a></li>
+      <li><span>📊</span><a href="assets/certificates/summerhack.pdf" class="cert-link" target="_blank">IEEE Hackathon</a></li>
       <li><span>📚</span><a href="assets/certificates/multi.pdf" class="cert-link" target="_blank">Multidimensional Data Modelling By Infosys</a></li>
     
     </ul>
@@ -198,5 +211,24 @@ The system utilizes computer vision and machine learning algorithms to assess vi
 
   <!-- JS -->
   <script src="script.js"></script>
+
+  <!-- Modal for Volunteering Photo -->
+<div id="volunteerModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
+  <div style="position: relative; background:white; padding: 20px; border-radius: 10px; max-width: 90%; max-height: 90%;">
+    <span onclick="closeVolunteerModal()" style="position:absolute; top:10px; right:15px; cursor:pointer; font-size: 1.5em;">❌</span>
+    <img src="assets/images/volunteering.png" alt="Volunteering Photo" style="max-width:100%; height:auto; border-radius: 8px;">
+  </div>
+</div>
+
+<script>
+  function showVolunteerImage() {
+    document.getElementById("volunteerModal").style.display = "flex";
+  }
+
+  function closeVolunteerModal() {
+    document.getElementById("volunteerModal").style.display = "none";
+  }
+</script>
+
 </body>
 </html>
